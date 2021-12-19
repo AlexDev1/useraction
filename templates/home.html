@@ -3,5 +3,10 @@
 {% block body %}
     <h1>Привет!</h1>
     Данные сессии:
-
+    <ul class="">
+        <li>Email: {{ user.email }}</li>
+        <li>IP: {{ user.ip }}</li>
+        <li>Countries: {{ user.country_code }}</li>
+        <li>IP: {{ user.timestamp }}</li>
+    </ul>
 {% endblock %}
